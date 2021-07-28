@@ -1,0 +1,20 @@
+# BankFind
+This is a collection of Jupyter Python notebooks which 
+1. Create a function ```search``` that allows us to interface with the FDIC's BankFind API, and performs searches based on filters and other parameters (see BankFindSearch for more details)
+2. Uses the search functionality to perform data analysis using XGBoost
+#### To get started, ```git clone``` this repository or download it as a ZIP
+Make sure to save the folder somewhere easily accessible (Documents, Desktop, etc)
+#### Next, ensure you have Jupyter Notebook installed
+Jupyter Notebook is included with the Anaconda Toolkit\
+If you don't already have Anaconda installed, download it free from https://www.anaconda.com/products/individual \
+Once it's installed, open jupyter notebook either from the Anaconda Navigator or directly
+#### Once you have Jupyter Notebook opened and running in your web browser,  navigate to ```BankFind```
+You can now open the Python notebooks. However, you will likely see errors when trying to run, since the last step is to install some dependencies to python
+#### Finally, ```pip install``` some necessary modules
+This can be done in the Anaconda Prompt, also included with the Anaconda toolkit\
+Run the following:
+
+>```pip install import_ipynb xgboost```
+
+```xgboost``` is the software used to perform ML analysis on the data and ```import_ipynb``` helps import the contents of one jupyter notebook to another, aiding in modularizing the code 
+
