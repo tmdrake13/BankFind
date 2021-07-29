@@ -5,10 +5,10 @@ This is a collection of Jupyter Python notebooks which
 2. Uses the search functionality to perform data analysis using XGBoost
 
 ### General Notes
-#### As of 7/28
+#### As of 7/29
 - My current data analysis consists of four models in ```MLModels1&2``` and ```MLModels3&4```. Descriptions and more info on these are in the respective worksheets
 - ```FinancialPractice``` is an exploratory excercise for me, as the 'financials' endpoint of contains over 1,000 return variables, so I am trying to sift through to see what can be of use
-- Currently, there is a minor issue with the ```search``` function that is yet to be resolved - it will ocassionaly, and especially on the first run, throw a ```ConnectionError```, but rerunning will nearly always resolve this. I will continue to look for a more robust solution
+- Currently, there is a minor issue with the ```search``` function that is yet to be resolved - it will occasionally, and especially on the first run, throw a ```ConnectionError```, but rerunning will nearly always resolve this. I will continue to look for a more robust solution
 - ```UnitTests``` contains some unit tests for the ```search``` function, as this is the foundation for my data collection
 
 ### Setup
@@ -17,7 +17,7 @@ Make sure to save the folder somewhere easily accessible (Documents, Desktop, et
 #### Next, ensure you have Jupyter Notebook installed
 Jupyter Notebook is included with the Anaconda Toolkit\
 If you don't already have Anaconda installed, download it free from https://www.anaconda.com/products/individual \
-Once it's installed, open jupyter notebook either from the Anaconda Navigator or directly
+Once it's installed, open Jupyter Notebook either from the Anaconda Navigator or directly
 #### Once you have Jupyter Notebook opened and running in your web browser,  navigate to ```BankFind```
 You can now open the Python notebooks. However, you will likely see errors when trying to run, since the last step is to install some dependencies to python
 #### Finally, ```pip install``` some necessary modules
