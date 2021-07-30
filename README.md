@@ -5,10 +5,9 @@ This is a collection of Jupyter Python notebooks which
 2. Uses the search functionality to perform data analysis using XGBoost
 
 ### General Notes
-#### As of 7/29
+#### As of 7/30
 - My current data analysis consists of four models in ```MLModels1&2``` and ```MLModels3&4```. Descriptions and more info on these are in the respective worksheets
 - ```FinancialPractice``` is an exploratory excercise for me, as the 'financials' endpoint of contains over 1,000 return variables, so I am trying to sift through to see what can be of use
-- Currently, there is a minor issue with the ```search``` function that is yet to be resolved - it will occasionally, and especially on the first run, throw a ```ConnectionError```, but rerunning will nearly always resolve this. I will continue to look for a more robust solution
 - ```UnitTests``` contains some unit tests for the ```search``` function, as this is the foundation for my data collection
 
 ### Setup
