@@ -26,5 +26,7 @@ Run the following:
 
 >```pip install import_ipynb xgboost shap```
 
-```xgboost``` is the software used to perform ML analysis on the data\```import_ipynb``` helps import the contents of one jupyter notebook to another, aiding in modularizing the code\```shap``` is a great tool that helps us visualize and better understand each feature's importance in our model.
+- ```xgboost``` is the software used to perform ML analysis on the data
+- ```import_ipynb``` helps import the contents of one jupyter notebook to another, aiding in modularizing the code
+- ```shap``` is a great tool that helps us visualize and better understand each feature's importance in our model.
 
