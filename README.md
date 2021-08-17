@@ -5,11 +5,10 @@ This is a collection of Jupyter Python notebooks which
 2. Uses the search functionality to perform data analysis using XGBoost
 
 ### General Notes
-#### As of 8/2
 - Most of the data analysis consists of four models in ```MLModels1&2``` and ```MLModels3&4```. Descriptions and more info on these are in the respective worksheets
 - ```FinancialPractice``` is an exploratory excercise for me, as the 'financials' endpoint of contains over 1,000 return variables, so I am trying to sift through to see what can be of use
 - ```UnitTests``` contains some unit tests for the ```search``` function, as this is the foundation for my data collection
-- ```FinalSummaryReport``` is the current draft of my final summary of findings - most of the substance is currently there, what's left is to clean it up, add a problem statement, and add some summaries, commentaries, and conclusions.
+- ```FinalSummaryReport``` is my final summary of findings - it summarizes the problem statements, provides context for the data we are working with, discusses my data analysis, and concludes with my findings.
 
 ### Setup
 #### To get started, ```git clone``` this repository or download it as a ZIP
